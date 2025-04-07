@@ -14,7 +14,8 @@
         "NSLocationWhenInUseUsageDescription": "This app needs access to location when open to record where images are taken and where folders are created.",
         "NSLocationAlwaysUsageDescription": "This app needs access to location when in the background to record where images are taken and where folders are created.",
         "NSLocationAlwaysAndWhenInUseUsageDescription": "This app needs access to location when open and in the background to record where images are taken and where folders are created."
-      }
+      },
+      "bundleIdentifier": "com.frankmathewsajan.t2gdrone"
     },
     "android": {
       "adaptiveIcon": {

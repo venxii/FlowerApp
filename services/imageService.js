@@ -1,5 +1,8 @@
 
-const PROCESS_URL = process.env.EXPO_PUBLIC_SERVER_URL
+import Constants from 'expo-constants';
+
+const PROCESS_URL = Constants.expoConfig?.extra?.EXPO_PUBLIC_SERVER_URL || "http://13.60.171.34:8000";
+
 const IMAGE_SERVER_URL = `${PROCESS_URL}/api/process_image/`;
 const VIDEO_SERVER_URL = `${PROCESS_URL}/api/process_video/`;
 

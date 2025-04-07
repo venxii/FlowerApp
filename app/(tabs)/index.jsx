@@ -91,7 +91,7 @@ export default function HomeScreen() {
                             <View style={styles.iconCircle}>
                                 <Ionicons name="location" size={32} color="#ffffff"/>
                             </View>
-                            <Text style={styles.iconText}>Track</Text>
+                            <Text style={styles.iconText}>Map</Text>
                         </TouchableOpacity>
 
                         <TouchableOpacity
@@ -102,6 +102,28 @@ export default function HomeScreen() {
                                 <Ionicons name="time" size={32} color="#ffffff"/>
                             </View>
                             <Text style={styles.iconText}>History</Text>
+                        </TouchableOpacity>
+                    </View>
+
+                    <View style={styles.iconContainer}>
+                        <TouchableOpacity
+                            style={styles.iconButton}
+                            onPress={() => router.push('/track')}
+                        >
+                            <View style={styles.iconCircle}>
+                                <Ionicons name="navigate" size={32} color="#ffffff"/>
+                            </View>
+                            <Text style={styles.iconText}>Track</Text>
+                        </TouchableOpacity>
+
+                        <TouchableOpacity
+                            style={styles.iconButton}
+                            onPress={() => router.push('/LiveStreamPlayer')}
+                        >
+                            <View style={styles.iconCircle}>
+                                <Ionicons name="videocam" size={32} color="#ffffff"/>
+                            </View>
+                            <Text style={styles.iconText}>View</Text>
                         </TouchableOpacity>
                     </View>
 
